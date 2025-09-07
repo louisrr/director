@@ -1,6 +1,4 @@
-// node_queue.cc
-
-#include "NodeQueue.hh"
+#include "NodeQueue.h"
 
 // Define the NodeQueue class using std::deque and Seastar primitives
 NodeQueue::NodeQueue() : _sem(1) {}  // Initialize semaphore with a count of 1
